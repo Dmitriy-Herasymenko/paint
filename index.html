@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Paint</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Rubik&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+<div class="container">
+    <div class="toolbar">
+        <span> Chose your color
+            <input type="color" class="color">
+        </span>
+        <label class="brush">Size brush</label>
+        <input type="range"  name="volume" class="size"
+               min="0" max="50">
+       <span class="erase">
+           Erase
+           <ion-icon name="trash-outline" class="erase"></ion-icon></span>
+
+    </div>
+    <canvas class="paint" width="700" height="400"></canvas>
+
+</div>
+
+<script src="https://unpkg.com/ionicons@5.0.0/dist/ionicons.js"></script>
+
+<script src="js.js"></script>
+</body>
+
+</html>

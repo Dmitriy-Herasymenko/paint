@@ -1,0 +1,38 @@
+body {
+    background-color: #100e17;
+    font-family: 'Rubik';
+    color: #fff;
+}
+
+.container {
+   margin: 12% 30%;
+}
+
+.toolbar {
+    display: flex;
+    align-items: center;
+    width: 671px;
+    height: 40px;
+    background-color: #201c29;
+    padding: 15px;
+}
+
+.color{
+    margin-left: 10px;
+}
+
+.brush {
+    margin-left: 25px;
+}
+
+.size{
+    margin-left: 15px;
+}
+.erase{
+    margin-left: 15px;
+}
+.paint {
+    background-color: #fff;
+    width: 700px;
+    height: 400px;
+}
